@@ -1,0 +1,8 @@
+{
+    "mqtt": { "client_id": "clientid",
+              "server": "raspberry",
+              "user": "username",
+              "password": "password",
+              "feed": "livingroom"
+            }
+}
