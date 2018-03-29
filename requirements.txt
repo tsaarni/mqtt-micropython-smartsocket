@@ -1,0 +1,16 @@
+#
+# This file is for testing on UNIX port of micropython
+#
+# Install modules by runnign
+#   micropython -m upip install -r requirements.txt
+#
+# Modules will be installed under $HOME/.micropython/lib/
+#
+# For the list of modules see https://github.com/micropython/micropython-lib
+#
+micropython-umqtt.simple
+micropython-time
+micropython-json
+micropython-machine
+micropython-hashlib
+micropython-hmac
