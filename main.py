@@ -101,6 +101,10 @@ class SmartSocket(object):
             self.relay.on()
         elif msg == b'off':
             self.relay.off()
+        elif msg == b'offon':
+            self.relay.off()
+            time.sleep(5)
+            self.relay.on()
 
 
 
